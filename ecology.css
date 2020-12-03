@@ -1,0 +1,93 @@
+hr {
+  border-color: #FA923C;
+  width: 30%;
+  min-width: 150px;
+  margin: 100px auto;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.important1 {
+  color: #0079AC;
+}
+
+.important2 {
+  color: #D40474;
+}
+
+.important3 {
+  color: #FA923C;
+}
+
+.important4 {
+  color: #3F9400;
+}
+
+.recyclingLogo {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recyclingLogo > img {
+  width: 200px;
+}
+
+.law > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.law > div:first-child {
+  margin-bottom: 100px;
+}
+
+.law > div > * {
+  width: 40%;
+}
+
+.law > div > img {
+  width: 500px;
+}
+
+@media screen and (max-width: 640px) {
+  .law > div > img {
+    width: 300px;
+  }
+
+  .law > div > p {
+    width: 300px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .recyclingLogo {
+    flex-direction: column;
+  }
+
+  .law > div > p {
+    width: 500px;
+  }
+}
