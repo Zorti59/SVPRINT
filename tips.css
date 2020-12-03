@@ -1,0 +1,87 @@
+p {
+  font-size: 30px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.headerImage {
+  height: 200px;
+  background-image: url("images/computer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tip {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.tip div:first-child {
+  text-align: center;
+}
+
+.reverse {
+  order: -1;
+}
+
+.tip > div,
+.tip > div > * {
+  width: 500px;
+}
+
+.imageTip {
+  text-align: center;
+}
+
+.imageTip img {
+  max-width: 300px;
+}
+
+.important1 {
+  color: #BA68C8;
+}
+
+.important2 {
+  color: #FA923C;
+}
+
+.important3 {
+  color: #0079AC;
+}
+
+.important4 {
+  color: #FFC727;
+}
+
+.important5 {
+  color: #92E3A9;
+}
+
+.number {
+  font-size: 60px;
+}
+
+
+@media screen and (max-width: 1120px) {
+  .reverse {
+    order: 0;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  p {
+    font-size: 18px;
+  }
+  .tip > div > * {
+    width: 300px;
+    margin: 25px auto;
+  }
+}
