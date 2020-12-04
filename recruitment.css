@@ -8,8 +8,7 @@ h2 {
 }
 
 input {
-  margin-top: 15px;
-  margin-bottom: 35px;
+  margin: 15px 10px 35px 10px;
   box-sizing: border-box;
   border: 1px solid black;
   -webkit-border-radius: 5px; 
@@ -17,7 +16,7 @@ input {
   border-radius: 5px;
   -webkit-box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25); 
   box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25);
-  width: 405px;
+  max-width: 405px;
   height: 58px;
 }
 
@@ -53,5 +52,27 @@ input {
 }
 
 .partners {
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.partners img {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  input {
+    height: 38px;
+  }
+
+  .submit {
+    height: 30px;
+    color: white;
+    font-size: 18px;
+  }
 }
