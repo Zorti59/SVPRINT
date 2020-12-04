@@ -1,0 +1,57 @@
+p {
+  font-size: 18px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+input {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25); 
+  box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25);
+  width: 405px;
+  height: 58px;
+}
+
+.submit {
+  margin: 100px 0;
+  background-color: #0079AC;
+  width: 254px;
+  height: 43px;
+  color: white;
+  font-size: 25px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+}
+
+.recruitImage {
+  width: 100%;
+}
+
+.formLine {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.formLine > div {
+  width: 405px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.partners {
+  text-align: center;
+}
