@@ -4,47 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logo.css">
     <link rel="stylesheet" href="contactus.css">
     <title>SV Print - Contactez nous</title>
 </head>
 
 <body>
+    <header>
+        <div class="nav-pc">
+            <nav>
+                <ul>
+                    <li><a class="menuLink" href="#">QUI SOMMES NOUS</a></li>
+                    <li><a class="menuLink" href="#">ECOLOGIE</a></li>
+                    <li><a class="menuLink" href="#">CONSEILS ET ASTUCES</a></li>
+                    <li><a class="menuLink" href="#">RECRUTEMENT</a></li>
+                    <li><a class="menuLink" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="nav-mobile">
+            <button class="ham"></button>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="menuLink" href="#">QUI SOMMES NOUS</a></li>
+                    <li><a class="menuLink" href="#">ECOLOGIE</a></li>
+                    <li><a class="menuLink" href="#">CONSEILS ET ASTUCES</a></li>
+                    <li><a class="menuLink" href="#">RECRUTEMENT</a></li>
+                    <li><a class="menuLink" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header">
+            <div class="container_logo">
+                <h1>SV<span>PRINT</span></h1>
+                <div class="drop-container">
+                    <div class="drop"></div>
+                </div>
+            </div>
+            <div class="slogan">
+                <p>#jesuis<span class="color">impression</span>nant</p>
+            </div>
+            <hr>
+        </div>
+
+
+
+    </header>
     <div class="content">
         <div class="info">
             <div class="picture">
-                <img src="">
+                <img src="images/amico.png">
             </div>
-            <div class="info_detail">
-                <p>Email : <span>sandy@svprint.fr</span></p>
-                <p>Adresse : <span>80 avenue Roland Moreno 59410 Anzin</span></p>
-                <p><img src="">: <span>0652804655</span></p>
+            <div class="gobal_info">
+                <div class="info_detail">
+                    <p>Email : <span>sandy@svprint.fr</span></p>
+                    <p>Adresse : <span>80 avenue Roland Moreno 59410 Anzin</span></p>
+                    <p>Téléphone : <span>0652804655</span></p>
+                </div>
                 <div class="small_logo">
-                    <img src="">
-                    <img src="">
-                    <img src="">
+                    <a href="sandy@svprint.fr"><img src="images/mail0.png"></a>
+                    <a href="0652804655"><img src="images/tel0.png"></a>
+                    <a href=""><img src="images/linkedin0.png"></a>
                 </div>
             </div>
         </div>
         <hr>
         <form action="" method="post">
-            <div class="form_part">
-                <input type="text" name="name" placeholder="Votre nom" required>
-            </div>
-            <div class="form_part">
-                <input type="text" name="surname" placeholder="Votre prénom" required>
-            </div>
-            <div class="form_part">
-                <input type="email" name="email" placeholder="Votre Email" required>
-            </div>
-            <div class="form_part">
-                <textarea name="message" rows="5" cols="32" placeholder="Votre message"></textarea>
+            <div class="form">
+                <div class="form_field">
+                    <div class="form_part">
+                        <input type="text" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form_part">
+                        <input type="text" name="surname" placeholder="Votre prénom" required>
+                    </div>
+                    <div class="form_part">
+                        <input type="email" name="email" placeholder="Votre Email" required>
+                    </div>
+                </div>
+                <div class="form_message">
+                    <div class="form_part">
+                        <textarea name="message" rows="5" cols="32" placeholder="Votre message"></textarea>
+                    </div>
+                </div>
             </div>
             <div class="form_button">
                 <input type="submit" value="Envoyer">
             </div>
         </form>
+        <hr>
+        <div class="info_compagny">
+            <p>Service client au top à l'écoute du lundi au vendredi<br>
+                de 9h à 12h00 / 13H45 - 17H45<br>
+                ou joignable par mail pour rèpondre à toutes vos questions,<br>
+                une erreur dans votre commande ?<br>
+                ou non recu : <br>
+                notre equipe réactive vous recontactera dans la journée !
+            </p>
+        </div>
     </div>
 
+    <footer>
+        <div class="liens">
+            <a href="">QUI SOMMES NOUS</a>
+            <a href="">ECOLOGIE</a>
+        </div>
+        <div class="center">
+            <h2>SV <span class="blue">PRINT</span></h2>
+            <div class="networks">
+                <a href=""><img src="images/twitter.png" alt=""></a>
+                <a href=""><img src="images/twitter.png" alt=""></a>
+                <a href=""><img src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+        <div class="liens">
+            <a href="">RECRUTEMENT</a>
+            <a href="">CONSEILS ET ASTUCES</a>
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -4,3 +4,87 @@ hr {
     min-width: 150px;
     margin: 100px auto;
   }
+  .content {
+    margin: 0px 20px 100px 20px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .picture, .info_detail, .small_logo {
+   text-align: center;
+  }
+
+  .picture img {
+    width: 55%;
+  }
+  .info_detail {
+    margin: 30px 0;
+  }
+  .info_detail p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .info_detail p span {
+    color: #DA481A;
+  }
+  .small_logo img {
+    width: 30%;
+  }
+  .form_part, .form_button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .form_part input, .form_part textarea, .form_button input {
+    box-shadow: 3px 3px 2px rgb(160, 160, 160) ;
+  }
+  .form_part input {
+    padding-right: 20px;
+  }
+  .form_part textarea {
+    padding-right: 30px;
+  }
+  .form_button input {
+    padding: 7px 50px;
+    background-color: #0079AC;
+    color: white;
+  }
+  .info_compagny {
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  @media screen and (min-width: 992px) {
+    .info {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .picture {
+      padding-right: 150px;
+    }
+    .info_detail p {
+      font-size: 14px;
+    }
+    .form {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .form_part textarea {
+      padding: 0 30px 63px 0;
+    }
+    .form_field {
+      padding-right: 50px;
+    }
+    .form_part input {
+      padding-right: 150px;
+    }
+    .form_part textarea {
+      padding-right: 160px;
+    }
+    .info_compagny {
+      font-size: 14px;
+    }
+  }

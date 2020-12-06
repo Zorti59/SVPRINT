@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  max-width: 100vw;
 }
 @font-face {
   font-family: 'Sansation';
@@ -11,9 +12,13 @@
   font-family: 'DolceVita';
   src: url('Dolce\ Vita\ Heavy\ Bold.ttf');
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.ttf');
+}
 body {
   background-color: #fffaf8;
- 
+ font-family: 'Roboto';
 }
 .blue {
   color: #0079ac;
@@ -49,6 +54,9 @@ p {
 .slogan {
   margin-top: 35px;
   padding: 0 50px;
+}
+.color {
+  font-weight: bold;
 }
 hr {
   width: 50%;
