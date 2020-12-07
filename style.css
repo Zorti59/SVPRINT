@@ -183,9 +183,15 @@ footer .liens a {
     margin: 0 20px;
     padding-bottom: 10px;
   }
-  .nav-pc nav ul a:hover {
-    border-bottom: 1px solid #0079ac;
-
+  .nav-pc nav ul a:after {
+    display: block;
+    content:'';
+    border-bottom: 2px solid #0079ac;
+    transform: scaleX(0);  
+    transition: transform 0.4s ease-in-out;
+  }
+  .nav-pc nav ul a:hover:after {
+    transform: scaleX(0.8);
   }
   .nav-pc img {
     margin: 30px;

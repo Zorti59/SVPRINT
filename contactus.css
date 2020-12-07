@@ -1,8 +1,8 @@
 hr {
     border-color: #0079AC;
-    width: 30%;
+    width: 50%;
     min-width: 150px;
-    margin: 40px auto;
+    margin: 38px auto;
   }
   .content {
     margin: 0px 20px 100px 20px;
@@ -46,6 +46,7 @@ hr {
   }
   .form_part input {
     padding-right: 20px;
+    padding-bottom: 20px;
   }
   .form_part textarea {
     padding-right: 30px;
