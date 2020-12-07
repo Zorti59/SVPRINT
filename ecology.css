@@ -1,24 +1,24 @@
 hr {
-  border-color: #FA923C;
+  border-color: #0079AC;
   width: 30%;
   min-width: 150px;
-  margin: 100px auto;
+  margin: 40px auto;
 }
 
-h2 {
+.content h2 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
 p {
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .content {
   max-width: 1200px;
   margin: auto;
-  padding: 50px;
+  padding:  0 50px 50px 50px;
 }
 
 .important1 {
@@ -46,7 +46,7 @@ p {
 }
 
 .recyclingLogo > img {
-  width: 200px;
+  width: 150px;
 }
 
 .law > div {
@@ -65,7 +65,7 @@ p {
 }
 
 .law > div > img {
-  width: 500px;
+  width: 400px;
 }
 
 @media screen and (max-width: 640px) {

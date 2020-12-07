@@ -53,6 +53,9 @@ h2 {
 .small_logo img {
   width: 30%;
 }
+.liens p {
+  font-size: 13px;
+}
 
 @media screen and (max-width: 640px) {
   h2 {

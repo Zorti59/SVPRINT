@@ -2,7 +2,7 @@ hr {
     border-color: #0079AC;
     width: 30%;
     min-width: 150px;
-    margin: 100px auto;
+    margin: 40px auto;
   }
   .content {
     margin: 0px 20px 100px 20px;
@@ -12,7 +12,9 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-  .picture, .info_detail, .small_logo {
+  .picture,
+  .info_detail,
+  .small_logo {
    text-align: center;
   }
 
@@ -37,7 +39,9 @@ hr {
     justify-content: center;
     padding: 10px;
   }
-  .form_part input, .form_part textarea, .form_button input {
+  .form_part input,
+  .form_part textarea,
+  .form_button input {
     box-shadow: 3px 3px 2px rgb(160, 160, 160) ;
   }
   .form_part input {
@@ -56,6 +60,7 @@ hr {
     line-height: 25px;
     font-size: 13px;
   }
+  
   @media screen and (min-width: 992px) {
     .info {
       flex-direction: row;

@@ -55,6 +55,11 @@ p {
   margin-top: 35px;
   padding: 0 50px;
 }
+.slogan h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
 .color {
   font-weight: bold;
 }
@@ -95,6 +100,7 @@ hr {
   color: white;
   transform: translateY(-100%);
   transition: transform 0.2s ease;
+  z-index: 5;
 }
 .showNav {
   transform: translateY(0);
@@ -117,6 +123,7 @@ hr {
 }
 .navbar ul li a:hover, .navbar ul li a:focus {
   border-bottom: 2px solid white;
+  
 }
 /*footer*/
 footer {
@@ -186,6 +193,9 @@ footer .liens a {
   /*footer*/
   footer {
     flex-direction: row;
+  }
+  footer a:hover {
+    color: #0079ac;
   }
   .center h2 {
     font-size: 40px;

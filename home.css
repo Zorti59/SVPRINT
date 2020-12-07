@@ -25,7 +25,7 @@
 }
 /*Section expert/we*/
 .experts {
-  background-color: #d404351e;
+  background-color: #d4043509;
 }
 .screen-right {
   margin: 20px 60px;
@@ -38,14 +38,14 @@
 }
 /*Section we*/
 .we {
-  background-color: #0078ac27;
+  background-color: #0078ac07;
 }
 .screen-right img {
   width: 100%;
 }
 /*Section custom*/
 .custom {
-  background-color: #8229812c;
+  background-color: #8229810b;
 }
 .screen-left img {
   width: 100%;
@@ -72,7 +72,6 @@
   margin: 50px auto;
 }
 
-
 @media screen and (min-width: 992px) {
   /*Global*/
   h2 {
@@ -98,5 +97,4 @@
   .we {
     flex-direction: row-reverse;
   }
-  
 }
