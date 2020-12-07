@@ -3,22 +3,13 @@ document.querySelector('form').addEventListener('submit',function(e){
     e.preventDefault();
    let first_name = document.querySelector('#first_name').value;
    let last_name = document.querySelector('#last_name').value;
-   let phone = document.querySelector('#phone').value;
    let mail = document.querySelector('#mail').value;
-   let address = document.querySelector('#address').value;
-   let city = document.querySelector('#city').value;
-   let country = document.querySelector('#country').value;
-   let zip_code = document.querySelector('#zip_code').value;
+   let message = document.querySelector('#message').value;
   let formData = new FormData();
-  formData.append('first_name', 'coucou');
+  formData.append('first_name', first_name);
   formData.append('last_name', last_name);
-  formData.append('phone', phone);
   formData.append('mail', mail);
-  formData.append('address', address);
-  formData.append('city', city);
-  formData.append('country', country);
-  formData.append('zip_code', zip_code);
-  formData.append('recruitForm', true);
+  formData.append('message', message);
   console.log(formData);
   var URL= "process.php";
   // Create XMLHttpRequest.
