@@ -7,48 +7,16 @@ h2 {
   font-size: 45px;
 }
 
-input {
-  margin: 15px 10px 35px 10px;
-  box-sizing: border-box;
-  border: 1px solid black;
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25); 
-  box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25);
-  max-width: 405px;
-  height: 58px;
-}
-
-.submit {
-  margin: 100px 0;
-  background-color: #0079AC;
-  width: 254px;
-  height: 43px;
-  color: white;
-  font-size: 25px;
-}
-
 .content {
   max-width: 1200px;
   margin: auto;
   padding: 50px;
+  text-align: center;
 }
 
 .recruitImage {
   width: 100%;
-}
-
-.formLine {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.formLine > div {
-  width: 405px;
-  display: flex;
-  flex-flow: column wrap;
+  max-width: 700px;
 }
 
 .partners {
@@ -60,8 +28,59 @@ input {
 .partners img {
   width: 100%;
 }
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picture, .info_detail, .small_logo {
+ text-align: center;
+}
+
+.picture img {
+  width: 55%;
+}
+.info_detail {
+  margin: 30px 0;
+}
+.info_detail p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.info_detail p span {
+  color: #DA481A;
+}
+.small_logo img {
+  width: 30%;
+}
 
 @media screen and (max-width: 640px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  input {
+    height: 38px;
+  }
+
+  .submit {
+    height: 30px;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .info {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .picture {
+    padding-right: 150px;
+  }
+  .info_detail p {
+    font-size: 14px;
+  }
   h2 {
     font-size: 24px;
   }
