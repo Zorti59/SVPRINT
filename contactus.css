@@ -61,6 +61,14 @@ hr {
     line-height: 25px;
     font-size: 13px;
   }
+  .rgpd {
+    display: flex;
+    justify-content: center;
+    font-size:12px ;
+  }
+  .rgpd input {
+    margin-right: 10px;
+  }
   
   @media screen and (min-width: 992px) {
     .info {
